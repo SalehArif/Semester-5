@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.sport{
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+}
+section{
+    margin: 10px;
+}
+article{
+    margin: 10px 100px;
+    margin-right: 0px;
+}

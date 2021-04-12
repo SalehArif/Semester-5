@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(109, 160, 204);
+        }
+        section{
+            margin: 5% 20%;
+        }
+        #left{
+            background: url('img/photo-1525659045093-8542be1e33fa.webp') no-repeat center center;
+            float: left;
+            height: 100vh;
+            width: 50%;
+            border-radius: 10px;
+            color: white;
+            padding-top: 55%;
+            padding-left: 5%;
+        }
+        #left h2{
+            padding-bottom: 4%;
+        }
+        #left p{
+            font-size: larger;
+        }
+        #pad{
+            padding-top: 25%;
+            padding-left: 55%;
+        }
+        #left span{
+            font-size: x-large;
+        }
+        #right{
+            background-color: white;
+            float: right;
+            width: 50%;
+            height: 100vh;
+            border-radius: 10px;
+            padding: 5%;
+        }
+        h1{
+            padding-bottom: 10%;
+            font-size: x-large;
+        }
+        label{
+            display: block;
+            opacity: 70%;
+            padding-bottom: 2%;
+        }
+        input{
+            display: block;
+            padding: 1.5% 50%;
+            padding-left: 2%;
+            margin-bottom: 10%;
+            border-radius: 2px;
+        }
+        #checkbox{
+            display: inline-block;
+            margin-bottom: 0%;
+        }
+        #label{
+            display: inline-block;
+        }
+        a{
+            display: inline-block;
+            margin-left: 5%;
+        }
+        #btn{
+            color: white;
+            background-color: rgb(72, 72, 221);
+            margin: 15% 0%;
+            padding: 3% 10%;
+            border-radius: 7px;
+        }
+
+        .clr{
+            clear: both;
+            height: 25vh;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <aside id="left">
+            <h2>Bring Your Music Along</h2>
+            <p>Try Unlimited</p>
+            <p id="pad"><span>$9.99</span> /Month</p>
+        </aside>
+        <aside id="right">
+            <form action="">
+                <h1>Registration Form</h1>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="" placeholder="ex. Lindsay Wilsom">
+                
+                <label for="email">Email</label>
+                <input type="email" name="email" id="">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="">
+
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="">
+
+                <input type="checkbox" name="" id="checkbox">
+                <label for="checkbox" id="label">By signing up you agree to the </label>
+                <p><a href="">Play Term of Service</a></p>
+
+                <input type="submit" name="" id="btn" value="Register">
+            </form>
+        </aside>
+    </section>
+    <div class="clr"></div>
+</body>
+</html>
