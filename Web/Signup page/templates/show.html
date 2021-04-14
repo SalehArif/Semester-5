@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #333;
+        }
+        .container{
+            background: #ccc;
+            max-width: 500px;
+            margin: auto; 
+            margin-top: 5%;
+        }
+
+        ul{
+            color:white;
+            list-style: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        ul li{
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+    <ul>
+        {% for deets in info %}
+        <li>{{ deets }}</li>
+        {% endfor %}
+    </ul>
+    </div>
+</body>
+</html>
